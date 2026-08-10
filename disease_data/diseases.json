@@ -1,0 +1,750 @@
+{
+  "version": "1.0.0",
+  "description": "Local disease knowledge base for the 38 classes used by the Plant Disease Recognition model.",
+  "disclaimer": "General educational guidance only; not a definitive diagnosis or substitute for local agricultural advice. Severity labels are application-level guidance.",
+  "diseases": [
+    {
+      "className": "Apple___Apple_scab",
+      "plant": "Apple",
+      "disease": "Apple Scab",
+      "symptoms": [
+        "Olive-green to brown leaf spots",
+        "Spots may darken and enlarge",
+        "Scabby or corky spots on fruit"
+      ],
+      "severity": "Moderate",
+      "recommendedActions": [
+        "Remove infected leaves and fruit",
+        "Improve air circulation through pruning",
+        "Use resistant cultivars where available"
+      ],
+      "prevention": [
+        "Remove fallen leaves and fruit debris",
+        "Maintain good tree airflow",
+        "Follow local scab management guidance"
+      ]
+    },
+    {
+      "className": "Apple___Black_rot",
+      "plant": "Apple",
+      "disease": "Black Rot",
+      "symptoms": [
+        "Round leaf spots with purple margins and tan centers",
+        "Brown fruit rot",
+        "Shriveled or mummified fruit",
+        "Dark branch cankers"
+      ],
+      "severity": "High",
+      "recommendedActions": [
+        "Prune dead or diseased branches",
+        "Remove mummified fruit and infected material",
+        "Improve orchard sanitation"
+      ],
+      "prevention": [
+        "Remove dead wood and fruit mummies",
+        "Do not leave infected debris in the orchard",
+        "Maintain healthy trees"
+      ]
+    },
+    {
+      "className": "Apple___Cedar_apple_rust",
+      "plant": "Apple",
+      "disease": "Cedar-Apple Rust",
+      "symptoms": [
+        "Yellow spots developing orange-red coloration",
+        "Dark dots in mature leaf spots",
+        "Occasional fruit spotting"
+      ],
+      "severity": "Low to Moderate",
+      "recommendedActions": [
+        "Inspect nearby juniper or cedar hosts",
+        "Remove infected plant material where practical",
+        "Consider resistant cultivars"
+      ],
+      "prevention": [
+        "Avoid planting susceptible apples close to cedar or juniper where practical",
+        "Remove rust galls from nearby junipers before spring spore production",
+        "Choose resistant varieties when available"
+      ]
+    },
+    {
+      "className": "Apple___healthy",
+      "plant": "Apple",
+      "disease": "Healthy",
+      "symptoms": [],
+      "severity": "None",
+      "recommendedActions": [
+        "Continue regular inspection",
+        "Maintain appropriate watering, nutrition, and pruning"
+      ],
+      "prevention": [
+        "Maintain orchard sanitation",
+        "Monitor regularly for new symptoms"
+      ]
+    },
+    {
+      "className": "Blueberry___healthy",
+      "plant": "Blueberry",
+      "disease": "Healthy",
+      "symptoms": [],
+      "severity": "None",
+      "recommendedActions": [
+        "Continue regular inspection",
+        "Maintain appropriate soil moisture and plant care"
+      ],
+      "prevention": [
+        "Keep the planting area clean",
+        "Monitor foliage, flowers, and fruit regularly"
+      ]
+    },
+    {
+      "className": "Cherry_(including_sour)___Powdery_mildew",
+      "plant": "Cherry",
+      "disease": "Powdery Mildew",
+      "symptoms": [
+        "White or gray powdery fungal growth",
+        "Leaves may curl or become distorted",
+        "Affected new growth may be stunted"
+      ],
+      "severity": "Moderate",
+      "recommendedActions": [
+        "Improve air circulation",
+        "Remove severely affected plant material where practical",
+        "Avoid persistently humid, poorly ventilated conditions"
+      ],
+      "prevention": [
+        "Maintain adequate spacing",
+        "Prune for airflow",
+        "Monitor new growth during favorable conditions"
+      ]
+    },
+    {
+      "className": "Cherry_(including_sour)___healthy",
+      "plant": "Cherry",
+      "disease": "Healthy",
+      "symptoms": [],
+      "severity": "None",
+      "recommendedActions": [
+        "Continue regular inspection",
+        "Maintain appropriate watering and nutrition"
+      ],
+      "prevention": [
+        "Maintain orchard sanitation",
+        "Monitor leaves, fruit, and branches regularly"
+      ]
+    },
+    {
+      "className": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "plant": "Corn (Maize)",
+      "disease": "Cercospora Leaf Spot / Gray Leaf Spot",
+      "symptoms": [
+        "Gray to tan elongated leaf lesions",
+        "Lesions can expand and merge",
+        "Premature leaf death in severe infections"
+      ],
+      "severity": "Moderate to High",
+      "recommendedActions": [
+        "Scout lower leaves and monitor disease progress",
+        "Manage infected crop debris according to local recommendations",
+        "Use resistant hybrids where available"
+      ],
+      "prevention": [
+        "Crop rotation where appropriate",
+        "Residue management",
+        "Use resistant hybrids"
+      ]
+    },
+    {
+      "className": "Corn_(maize)___Common_rust_",
+      "plant": "Corn (Maize)",
+      "disease": "Common Rust",
+      "symptoms": [
+        "Elongated rusty orange-brown pustules",
+        "Powdery spores may rub off",
+        "Leaves can yellow and weaken"
+      ],
+      "severity": "Moderate",
+      "recommendedActions": [
+        "Scout plants regularly",
+        "Use resistant hybrids where available",
+        "Follow local disease-management guidance when pressure is high"
+      ],
+      "prevention": [
+        "Plant resistant hybrids",
+        "Monitor during favorable weather",
+        "Maintain good crop management"
+      ]
+    },
+    {
+      "className": "Corn_(maize)___Northern_Leaf_Blight",
+      "plant": "Corn (Maize)",
+      "disease": "Northern Leaf Blight",
+      "symptoms": [
+        "Long gray-green to tan cigar-shaped lesions",
+        "Lesions enlarge and merge",
+        "Premature leaf death in severe cases"
+      ],
+      "severity": "High",
+      "recommendedActions": [
+        "Scout fields early",
+        "Use resistant hybrids where available",
+        "Manage infected crop residue according to local guidance"
+      ],
+      "prevention": [
+        "Crop rotation",
+        "Use resistant hybrids",
+        "Manage crop residue and volunteer corn"
+      ]
+    },
+    {
+      "className": "Corn_(maize)___healthy",
+      "plant": "Corn (Maize)",
+      "disease": "Healthy",
+      "symptoms": [],
+      "severity": "None",
+      "recommendedActions": [
+        "Continue regular field scouting",
+        "Maintain balanced crop management"
+      ],
+      "prevention": [
+        "Monitor regularly",
+        "Use good crop sanitation and rotation practices"
+      ]
+    },
+    {
+      "className": "Grape___Black_rot",
+      "plant": "Grape",
+      "disease": "Black Rot",
+      "symptoms": [
+        "Round tan leaf spots with dark edges",
+        "Small dark dots may appear in leaf spots",
+        "Berries develop reddish-brown lesions and become dark mummies"
+      ],
+      "severity": "High",
+      "recommendedActions": [
+        "Remove mummified berries and infected plant material",
+        "Improve canopy airflow",
+        "Scout clusters regularly"
+      ],
+      "prevention": [
+        "Remove fruit mummies and infected debris",
+        "Maintain an open canopy",
+        "Use resistant cultivars where available"
+      ]
+    },
+    {
+      "className": "Grape___Esca_(Black_Measles)",
+      "plant": "Grape",
+      "disease": "Esca (Black Measles)",
+      "symptoms": [
+        "Leaf striping or mottled discoloration",
+        "Small dark spots may develop on berries",
+        "Affected shoots or vines may decline"
+      ],
+      "severity": "High",
+      "recommendedActions": [
+        "Remove severely affected vine material according to local guidance",
+        "Monitor vines for progressive decline",
+        "Consult a local viticulture or plant-health specialist for persistent symptoms"
+      ],
+      "prevention": [
+        "Use healthy planting material",
+        "Minimize unnecessary pruning wounds",
+        "Maintain vineyard sanitation and vine vigor"
+      ]
+    },
+    {
+      "className": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "plant": "Grape",
+      "disease": "Leaf Blight (Isariopsis Leaf Spot)",
+      "symptoms": [
+        "Brown to reddish-brown leaf spots",
+        "Spots can enlarge and merge",
+        "Premature leaf loss may occur"
+      ],
+      "severity": "Moderate",
+      "recommendedActions": [
+        "Remove heavily affected foliage where practical",
+        "Improve canopy airflow",
+        "Monitor disease progression"
+      ],
+      "prevention": [
+        "Maintain vineyard sanitation",
+        "Improve canopy ventilation",
+        "Avoid prolonged leaf wetness where practical"
+      ]
+    },
+    {
+      "className": "Grape___healthy",
+      "plant": "Grape",
+      "disease": "Healthy",
+      "symptoms": [],
+      "severity": "None",
+      "recommendedActions": [
+        "Continue regular vineyard scouting",
+        "Maintain balanced vine growth"
+      ],
+      "prevention": [
+        "Maintain canopy management",
+        "Remove diseased material promptly when found"
+      ]
+    },
+    {
+      "className": "Orange___Haunglongbing_(Citrus_greening)",
+      "plant": "Orange",
+      "disease": "Huanglongbing (Citrus Greening)",
+      "symptoms": [
+        "Mottled yellow leaves with uneven green areas",
+        "Yellow shoots or blotchy leaf patterns",
+        "Small, poorly colored or unevenly ripened fruit",
+        "Declining tree vigor"
+      ],
+      "severity": "High",
+      "recommendedActions": [
+        "Confirm suspected cases through appropriate diagnostic services",
+        "Manage infected trees according to local citrus-disease regulations",
+        "Monitor and manage the insect vector according to local guidance"
+      ],
+      "prevention": [
+        "Use certified healthy planting material",
+        "Monitor for the citrus psyllid vector",
+        "Follow regional citrus-greening management programs"
+      ]
+    },
+    {
+      "className": "Peach___Bacterial_spot",
+      "plant": "Peach",
+      "disease": "Bacterial Spot",
+      "symptoms": [
+        "Small dark spots on leaves",
+        "Yellowing around leaf lesions",
+        "Fruit spots or pitting",
+        "Premature leaf drop in severe cases"
+      ],
+      "severity": "Moderate to High",
+      "recommendedActions": [
+        "Remove severely affected material where practical",
+        "Improve airflow",
+        "Use resistant cultivars where available"
+      ],
+      "prevention": [
+        "Use healthy planting material",
+        "Maintain orchard sanitation",
+        "Avoid prolonged leaf wetness where practical"
+      ]
+    },
+    {
+      "className": "Peach___healthy",
+      "plant": "Peach",
+      "disease": "Healthy",
+      "symptoms": [],
+      "severity": "None",
+      "recommendedActions": [
+        "Continue regular inspection",
+        "Maintain appropriate watering and nutrition"
+      ],
+      "prevention": [
+        "Maintain orchard sanitation",
+        "Monitor leaves and fruit regularly"
+      ]
+    },
+    {
+      "className": "Pepper,_bell___Bacterial_spot",
+      "plant": "Bell Pepper",
+      "disease": "Bacterial Spot",
+      "symptoms": [
+        "Small brown circular leaf spots",
+        "Yellow halos may surround lesions",
+        "Fruit spots can develop",
+        "Severe infections may cause leaf loss"
+      ],
+      "severity": "Moderate to High",
+      "recommendedActions": [
+        "Remove affected leaves where practical",
+        "Keep foliage as dry as practical",
+        "Improve plant spacing and airflow"
+      ],
+      "prevention": [
+        "Use disease-free seed and transplants",
+        "Avoid overhead irrigation",
+        "Rotate crops and remove infected debris"
+      ]
+    },
+    {
+      "className": "Pepper,_bell___healthy",
+      "plant": "Bell Pepper",
+      "disease": "Healthy",
+      "symptoms": [],
+      "severity": "None",
+      "recommendedActions": [
+        "Continue regular inspection",
+        "Maintain appropriate watering and nutrition"
+      ],
+      "prevention": [
+        "Maintain garden sanitation",
+        "Monitor foliage and fruit regularly"
+      ]
+    },
+    {
+      "className": "Potato___Early_blight",
+      "plant": "Potato",
+      "disease": "Early Blight",
+      "symptoms": [
+        "Round brown leaf spots with target-like rings",
+        "Yellowing around lesions",
+        "Dark slightly sunken stem lesions",
+        "Dark sunken tuber spots"
+      ],
+      "severity": "Moderate to High",
+      "recommendedActions": [
+        "Remove severely affected foliage where practical",
+        "Maintain plant vigor and avoid prolonged leaf wetness",
+        "Use resistant or tolerant varieties where available"
+      ],
+      "prevention": [
+        "Crop rotation",
+        "Remove infected crop debris",
+        "Maintain adequate plant spacing and airflow"
+      ]
+    },
+    {
+      "className": "Potato___Late_blight",
+      "plant": "Potato",
+      "disease": "Late Blight",
+      "symptoms": [
+        "Large irregular olive-brown leaf lesions",
+        "Rapid browning and shriveling in wet weather",
+        "White growth may appear under humid conditions",
+        "Brown to purple tuber lesions"
+      ],
+      "severity": "High",
+      "recommendedActions": [
+        "Scout frequently during cool, wet conditions",
+        "Manage infected material according to local guidance",
+        "Seek local plant-disease advice when suspected"
+      ],
+      "prevention": [
+        "Use healthy seed tubers",
+        "Avoid prolonged leaf wetness",
+        "Maintain good airflow and manage volunteer or cull potatoes"
+      ]
+    },
+    {
+      "className": "Potato___healthy",
+      "plant": "Potato",
+      "disease": "Healthy",
+      "symptoms": [],
+      "severity": "None",
+      "recommendedActions": [
+        "Continue regular field scouting",
+        "Maintain balanced watering and nutrition"
+      ],
+      "prevention": [
+        "Use healthy seed potatoes",
+        "Practice crop rotation",
+        "Remove diseased crop debris"
+      ]
+    },
+    {
+      "className": "Raspberry___healthy",
+      "plant": "Raspberry",
+      "disease": "Healthy",
+      "symptoms": [],
+      "severity": "None",
+      "recommendedActions": [
+        "Continue regular inspection",
+        "Maintain appropriate watering and nutrition"
+      ],
+      "prevention": [
+        "Maintain good cane and garden sanitation",
+        "Monitor foliage and fruit regularly"
+      ]
+    },
+    {
+      "className": "Soybean___healthy",
+      "plant": "Soybean",
+      "disease": "Healthy",
+      "symptoms": [],
+      "severity": "None",
+      "recommendedActions": [
+        "Continue regular field scouting",
+        "Maintain balanced crop management"
+      ],
+      "prevention": [
+        "Use healthy seed",
+        "Practice crop rotation",
+        "Monitor regularly"
+      ]
+    },
+    {
+      "className": "Squash___Powdery_mildew",
+      "plant": "Squash",
+      "disease": "Powdery Mildew",
+      "symptoms": [
+        "White powdery patches on leaves",
+        "Leaves may yellow or brown",
+        "Severe infections can reduce healthy foliage"
+      ],
+      "severity": "Moderate",
+      "recommendedActions": [
+        "Improve airflow around plants",
+        "Remove severely affected leaves where practical",
+        "Monitor disease progression"
+      ],
+      "prevention": [
+        "Provide adequate spacing",
+        "Avoid overly dense foliage",
+        "Choose resistant varieties when available"
+      ]
+    },
+    {
+      "className": "Strawberry___Leaf_scorch",
+      "plant": "Strawberry",
+      "disease": "Leaf Scorch",
+      "symptoms": [
+        "Dark purple to reddish spots on leaves",
+        "Spots can enlarge and develop brown centers",
+        "Severe infection may cause leaf browning"
+      ],
+      "severity": "Moderate",
+      "recommendedActions": [
+        "Remove severely affected leaves where practical",
+        "Improve airflow",
+        "Maintain good planting sanitation"
+      ],
+      "prevention": [
+        "Avoid dense, poorly ventilated plantings",
+        "Remove diseased leaves and debris",
+        "Use healthy planting material"
+      ]
+    },
+    {
+      "className": "Strawberry___healthy",
+      "plant": "Strawberry",
+      "disease": "Healthy",
+      "symptoms": [],
+      "severity": "None",
+      "recommendedActions": [
+        "Continue regular inspection",
+        "Maintain appropriate watering and nutrition"
+      ],
+      "prevention": [
+        "Maintain clean beds",
+        "Monitor leaves, flowers, and fruit regularly"
+      ]
+    },
+    {
+      "className": "Tomato___Bacterial_spot",
+      "plant": "Tomato",
+      "disease": "Bacterial Spot",
+      "symptoms": [
+        "Small brown circular leaf spots",
+        "Yellow halos around some lesions",
+        "Small spots on fruit",
+        "Severe infection can cause leaf loss"
+      ],
+      "severity": "Moderate to High",
+      "recommendedActions": [
+        "Remove symptomatic leaves where practical",
+        "Keep leaves dry and water at the plant base",
+        "Improve airflow and spacing"
+      ],
+      "prevention": [
+        "Use reputable disease-free seed or transplants",
+        "Avoid overhead irrigation",
+        "Rotate crops and remove infected debris"
+      ]
+    },
+    {
+      "className": "Tomato___Early_blight",
+      "plant": "Tomato",
+      "disease": "Early Blight",
+      "symptoms": [
+        "Dark round or irregular leaf spots",
+        "Concentric target-like rings",
+        "Yellow tissue around lesions",
+        "Leaves may brown and fall"
+      ],
+      "severity": "Moderate to High",
+      "recommendedActions": [
+        "Remove severely affected leaves where practical",
+        "Improve airflow",
+        "Keep foliage as dry as practical"
+      ],
+      "prevention": [
+        "Crop rotation",
+        "Remove infected plant debris",
+        "Use adequate spacing and support plants"
+      ]
+    },
+    {
+      "className": "Tomato___Late_blight",
+      "plant": "Tomato",
+      "disease": "Late Blight",
+      "symptoms": [
+        "Large dark brown or olive leaf blotches",
+        "Rapid browning and wilting",
+        "White growth may appear in humid conditions",
+        "Dark fruit lesions"
+      ],
+      "severity": "High",
+      "recommendedActions": [
+        "Scout frequently during cool, wet conditions",
+        "Remove diseased material according to local guidance",
+        "Seek local plant-health advice for suspected outbreaks"
+      ],
+      "prevention": [
+        "Keep foliage dry",
+        "Improve plant spacing and airflow",
+        "Remove infected material promptly"
+      ]
+    },
+    {
+      "className": "Tomato___Leaf_Mold",
+      "plant": "Tomato",
+      "disease": "Leaf Mold",
+      "symptoms": [
+        "Pale yellow-green spots on upper leaf surfaces",
+        "Olive-green to brown velvety growth underneath leaves",
+        "Leaves may wither and die"
+      ],
+      "severity": "Moderate",
+      "recommendedActions": [
+        "Reduce persistent humidity",
+        "Improve greenhouse or canopy ventilation",
+        "Remove severely affected leaves where practical"
+      ],
+      "prevention": [
+        "Maintain good airflow",
+        "Avoid prolonged leaf wetness",
+        "Monitor high-humidity conditions closely"
+      ]
+    },
+    {
+      "className": "Tomato___Septoria_leaf_spot",
+      "plant": "Tomato",
+      "disease": "Septoria Leaf Spot",
+      "symptoms": [
+        "Small circular leaf spots",
+        "Dark margins with tan or gray centers",
+        "Tiny dark dots may appear in spot centers",
+        "Lower leaves are often affected first"
+      ],
+      "severity": "Moderate",
+      "recommendedActions": [
+        "Remove symptomatic lower leaves where practical",
+        "Keep leaves dry",
+        "Improve air circulation"
+      ],
+      "prevention": [
+        "Crop rotation",
+        "Remove infected plant debris",
+        "Avoid overhead irrigation and improve spacing"
+      ]
+    },
+    {
+      "className": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "plant": "Tomato",
+      "disease": "Two-Spotted Spider Mite",
+      "symptoms": [
+        "Fine yellow or pale speckling on leaves",
+        "Bronzing or discoloration with heavy feeding",
+        "Fine webbing when populations are high",
+        "Leaf drop in severe infestations"
+      ],
+      "severity": "Moderate to High",
+      "recommendedActions": [
+        "Inspect leaf undersides",
+        "Use a strong water spray to dislodge mites where appropriate",
+        "Avoid unnecessary broad-spectrum insecticide use"
+      ],
+      "prevention": [
+        "Monitor during hot, dry conditions",
+        "Reduce plant stress",
+        "Encourage natural predators where practical"
+      ]
+    },
+    {
+      "className": "Tomato___Target_Spot",
+      "plant": "Tomato",
+      "disease": "Target Spot",
+      "symptoms": [
+        "Brown circular leaf spots",
+        "Concentric rings may form",
+        "Spots can enlarge and merge",
+        "Fruit lesions may occur"
+      ],
+      "severity": "Moderate",
+      "recommendedActions": [
+        "Remove severely affected leaves where practical",
+        "Improve canopy airflow",
+        "Keep foliage dry"
+      ],
+      "prevention": [
+        "Use adequate plant spacing",
+        "Remove infected debris",
+        "Avoid prolonged leaf wetness"
+      ]
+    },
+    {
+      "className": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "plant": "Tomato",
+      "disease": "Tomato Yellow Leaf Curl Virus",
+      "symptoms": [
+        "Upward curling of leaves",
+        "Yellowing of young leaves",
+        "Stunted plant growth",
+        "Reduced fruit set"
+      ],
+      "severity": "High",
+      "recommendedActions": [
+        "Remove severely affected plants according to local guidance",
+        "Monitor and manage the whitefly vector",
+        "Avoid propagating from symptomatic plants"
+      ],
+      "prevention": [
+        "Use healthy transplants",
+        "Monitor for whiteflies",
+        "Use resistant varieties where available"
+      ]
+    },
+    {
+      "className": "Tomato___Tomato_mosaic_virus",
+      "plant": "Tomato",
+      "disease": "Tomato Mosaic Virus",
+      "symptoms": [
+        "Light and dark green mosaic patterns",
+        "Leaf distortion or curling",
+        "Stunted growth",
+        "Uneven fruit development or discoloration"
+      ],
+      "severity": "High",
+      "recommendedActions": [
+        "Remove infected plants when appropriate",
+        "Clean hands and tools after handling infected plants",
+        "Avoid propagating from symptomatic plants"
+      ],
+      "prevention": [
+        "Use clean seed and planting material",
+        "Sanitize tools and hands",
+        "Remove infected debris and avoid cross-contamination"
+      ]
+    },
+    {
+      "className": "Tomato___healthy",
+      "plant": "Tomato",
+      "disease": "Healthy",
+      "symptoms": [],
+      "severity": "None",
+      "recommendedActions": [
+        "Continue regular inspection",
+        "Maintain appropriate watering, nutrition, and plant support"
+      ],
+      "prevention": [
+        "Maintain good garden sanitation",
+        "Monitor foliage and fruit regularly",
+        "Use good spacing and airflow"
+      ]
+    }
+  ]
+}
